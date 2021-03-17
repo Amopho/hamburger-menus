@@ -40,6 +40,7 @@ body {
 .x-hamburger:hover .onex {
   transform: rotate(0.15turn);
   position: absolute;
+  transition: all 0.25s ease-in 0s;
 }
 
 .x-hamburger:hover .twox {
@@ -49,13 +50,14 @@ body {
 .x-hamburger:hover .threex {
   transform: rotate(-0.15turn);
   position: absolute;
+  transition: all 0.25s ease-in 0s;
 }
 
 .x-hamburger:hover {
   background-color: rgba(0, 192, 64, 0.6);
 }
 
-/* Crossing hamburger */
+/* Left-arrow hamburger */
 .secd-hamburger {
   display: flex;
   justify-content: space-evenly;
@@ -75,16 +77,25 @@ body {
   box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
 }
 
+.secd-hamburger:hover {
+  width: 75%;
+}
+
 .secd-hamburger:hover .onend {
   transform: translateY(22px) translateX(6px) rotate(45deg);
+  transition: all 0.25s ease-in 0s;
+  transform-origin: center;
 }
 
 .secd-hamburger:hover .twond {
   display: none;
+  transform-origin: center;
 }
 
 .secd-hamburger:hover .threend {
   transform: translateY(-22px) translateX(4px) rotate(-45deg);
+  transition: all 0.25s ease-in 0s;
+  transform-origin: center;
 }
 
 /* Opening position */
