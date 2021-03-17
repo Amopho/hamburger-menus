@@ -31,12 +31,30 @@ body {
   border-radius: 0.05rem;
 }
 
-.x-hamburger div {
+.x-hamburger .line {
   width: 2.5rem;
   border-radius: 2rem;
   border: 2px rgba(255, 255, 255, 0.75) solid;
   box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
   text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+
+.x-hamburger:hover .onex {
+  transform: rotate(0.15turn);
+  position: absolute;
+}
+
+.x-hamburger:hover .twox {
+  display: none;
+}
+
+.x-hamburger:hover .threex {
+  transform: rotate(-0.15turn);
+  position: absolute;
+}
+
+.x-hamburger:hover {
+  background-color: rgba(0, 192, 64, 0.6);
 }
 
 .secd-hamburger {
