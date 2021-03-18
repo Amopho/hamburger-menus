@@ -98,11 +98,7 @@ body {
   transform-origin: center;
 }
 
-/* Opening position */
-
-.x-hamburger:hover {
-  background-color: rgba(0, 192, 64, 0.6);
-}
+/* Collapsing hamburger */
 
 .thrd-hamburger {
   display: flex;
@@ -121,4 +117,26 @@ body {
   border: 2px rgba(255, 255, 255, 0.75) solid;
   border-radius: 2rem;
   box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+
+.thrd-hamburger:hover {
+  background-color: rgba(0, 128, 128, 0.6);
+}
+
+.thrd-hamburger:hover .onerd {
+  transform: translateY(22px) translateX(6px) rotate(45deg);
+  transition: all 0.25s ease-in 0s;
+  transform-origin: center;
+}
+
+.thrd-hamburger:hover .tword {
+  transform: translateY(22px) translateX(6px) rotate(45deg);
+  transition: all 0.25s ease-in 0s;
+  transform-origin: center;
+}
+
+.thrd-hamburger:hover .threerd {
+  transform: translateY(22px) translateX(6px) rotate(45deg);
+  transition: all 0.25s ease-in 0s;
+  transform-origin: center;
 }
