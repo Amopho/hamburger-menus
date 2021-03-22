@@ -167,6 +167,11 @@ body {
   background-color: rgba(0, 192, 64, 0.6);
 }
 
+/* on-click for mobile view */
+/* .fourth-hamburger:hover {
+  background-color: rgba(0, 192, 64, 0.6);
+} */
+
 .fourth-hamburger:hover .oneth {
   transform: translateY(22px) translateX(6px) rotate(45deg);
   transition: all 0.25s ease-in 0s;
@@ -175,7 +180,6 @@ body {
 
 .fourth-hamburger:hover .twoth {
   display: inline;
-  transform-origin: center;
   position: absolute;
   left: 1rem;
 }
